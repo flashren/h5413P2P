@@ -1,19 +1,18 @@
-<<<<<<< .mine
 <!DOCTYPE html>
 <html>
 
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<!--ÊÓ¿Ú: ¼æÈÝÒÆ¶¯¶Ë-->
+		<!--è§†å£: å…¼å®¹ç§»åŠ¨ç«¯-->
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-		<!--ÒýÈëbootstrapºËÐÄÑùÊ½-->
+		<!--å¼•å…¥bootstrapæ ¸å¿ƒæ ·å¼-->
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
-		<!--ÒýÈëÍ¼±ê×ÖÌå-->
+		<!--å¼•å…¥å›¾æ ‡å­—ä½“-->
 		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.min.css"/>	
-		<!--×Ô¶¨ÒåÑùÊ½-->
+		<!--è‡ªå®šä¹‰æ ·å¼-->
 		<link rel="stylesheet" type="text/css" href="dist/css/min/index.min.css"/>
-		<!--¼æÈÝµÍ°æ±¾µÄä¯ÀÀÆ÷-->
+		<!--å…¼å®¹ä½Žç‰ˆæœ¬çš„æµè§ˆå™¨-->
 		<!--[if lt IE 9]>
 	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -25,12 +24,8 @@
 		   include_once("./header.html");
 		?>
 		
-		<!--³åÍ»-->
-		<h1>³åÍ»ÑÝÊ¾</h1>
-
-		<h1>ÕÅ»ª--³åÍ»100</h1>
 			
-		<!--ÂÖ²¥Í¼-->
+		<!--è½®æ’­å›¾-->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
 		  <ol class="carousel-indicators">
@@ -41,11 +36,11 @@
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="static/images/banner01.jpg" alt="¹ã¸æ1">
+		      <img src="static/images/banner01.jpg" alt="å¹¿å‘Š1">
 		      <div class="carousel-caption"></div>
 		    </div>
 		    <div class="item">
-		      <img src="static/images/banner02.jpg" alt="¹ã¸æ2">
+		      <img src="static/images/banner02.jpg" alt="å¹¿å‘Š2">
 		      <div class="carousel-caption"></div>
 		    </div>
 		  </div>
@@ -61,77 +56,77 @@
 		  </a>
 		</div>
 		
-		<!--Èý´óÌØÉ«-->
+		<!--ä¸‰å¤§ç‰¹è‰²-->
 		<div class="container" id="feature">
 			<div class="row">
 				<div class="col-lg-4 col-md-4 col-xs-12">
-					<h4>Í¶×ÊÀí²Æ</h4>
-                    <p>ÎÈ¶¨Í¶×Ê¡¢¸ßÊÕÒæ¡¢¶ÌÆÚÏÞ£¬Ò×ÈÚ´ûÏÈÐÐÅâ¸¶£¬±£ÕÏÍ¶×ÊÈËÈ¨Òæ¡£</p>
+					<h4>æŠ•èµ„ç†è´¢</h4>
+                    <p>ç¨³å®šæŠ•èµ„ã€é«˜æ”¶ç›Šã€çŸ­æœŸé™ï¼Œæ˜“èžè´·å…ˆè¡Œèµ”ä»˜ï¼Œä¿éšœæŠ•èµ„äººæƒç›Šã€‚</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-xs-12">
-					<h4>Í¶×ÊÀí²Æ</h4>
-                    <p>ÎÈ¶¨Í¶×Ê¡¢¸ßÊÕÒæ¡¢¶ÌÆÚÏÞ£¬Ò×ÈÚ´ûÏÈÐÐÅâ¸¶£¬±£ÕÏÍ¶×ÊÈËÈ¨Òæ¡£</p>
+					<h4>æŠ•èµ„ç†è´¢</h4>
+                    <p>ç¨³å®šæŠ•èµ„ã€é«˜æ”¶ç›Šã€çŸ­æœŸé™ï¼Œæ˜“èžè´·å…ˆè¡Œèµ”ä»˜ï¼Œä¿éšœæŠ•èµ„äººæƒç›Šã€‚</p>
 				</div>
 				<div class="col-lg-4 col-md-4 col-xs-12">
-					<h4>Í¶×ÊÀí²Æ</h4>
-                    <p>ÎÈ¶¨Í¶×Ê¡¢¸ßÊÕÒæ¡¢¶ÌÆÚÏÞ£¬Ò×ÈÚ´ûÏÈÐÐÅâ¸¶£¬±£ÕÏÍ¶×ÊÈËÈ¨Òæ¡£</p>
+					<h4>æŠ•èµ„ç†è´¢</h4>
+                    <p>ç¨³å®šæŠ•èµ„ã€é«˜æ”¶ç›Šã€çŸ­æœŸé™ï¼Œæ˜“èžè´·å…ˆè¡Œèµ”ä»˜ï¼Œä¿éšœæŠ•èµ„äººæƒç›Šã€‚</p>
 				</div>
 			</div>
 		</div>
 		
-		<!--Í¶×ÊÐÅÏ¢ÁÐ±í-->
+		<!--æŠ•èµ„ä¿¡æ¯åˆ—è¡¨-->
 		<div class="container" id="invest">
-			<!--Ãæ°åµÄ½á¹¹-->
+			<!--é¢æ¿çš„ç»“æž„-->
 			<div class="panel panel-default">
 			  <div class="panel-heading">
-			  	<h1>½øÐÐÖÐ½è¿î</h1>
-			  	<p><a href="#">½øÈëÍ¶×ÊÁÐ±í</a></p>
+			  	<h1>è¿›è¡Œä¸­å€Ÿæ¬¾</h1>
+			  	<p><a href="#">è¿›å…¥æŠ•èµ„åˆ—è¡¨</a></p>
 			  </div>
 			  <table class="table el-table table-hover">
 		            <thead>
 		            <tr>
-		                <th>½è¿îÈË</th>
-		                <th class="hide620">½è¿î±êÌâ</th>
-		                <th>ÄêÀûÂÊ</th>
-		                <th>½ð¶î</th>
-		                <th class="hide620">»¹¿î·½Ê½</th>
-		                <th>½ø¶È</th>
-		                <th>²Ù×÷</th>
+		                <th>å€Ÿæ¬¾äºº</th>
+		                <th class="hide620">å€Ÿæ¬¾æ ‡é¢˜</th>
+		                <th>å¹´åˆ©çŽ‡</th>
+		                <th>é‡‘é¢</th>
+		                <th class="hide620">è¿˜æ¬¾æ–¹å¼</th>
+		                <th>è¿›åº¦</th>
+		                <th>æ“ä½œ</th>
 		            </tr>
 		            </thead>
 		            <tbody>
-		                <!--ºóÌ¨Ê¾ÀýÊý¾Ý-->
-		                <tr><!--µÚÒ»ÌõÊý¾Ý¿ªÊ¼-->
-		                    <td>ÕÅÈý</td>
-		                    <td class="hide620">¸øÎÒ2000¶È¹ýÄÑ¹Ø</td>
+		                <!--åŽå°ç¤ºä¾‹æ•°æ®-->
+		                <tr><!--ç¬¬ä¸€æ¡æ•°æ®å¼€å§‹-->
+		                    <td>å¼ ä¸‰</td>
+		                    <td class="hide620">ç»™æˆ‘2000åº¦è¿‡éš¾å…³</td>
 		                    <td class="text-info"> 10.00%
 		                    </td>
 		                    <td class="text-info">2,000.00</td>
 		                    <td class="hide620">
-		                        °´ÔÂ·ÖÆÚ»¹¿î
+		                        æŒ‰æœˆåˆ†æœŸè¿˜æ¬¾
 		                    </td>
 		                    <td>78.00%</td>
-		                    <td><a class="btn btn-danger btn-sm" href="borrow_info.html?id=1">²é¿´</a></td>
-		                </tr><!--µÚÒ»ÌõÊý¾Ý½áÊø-->
-		                <tr><!--µÚ¶þÌõÊý¾Ý¿ªÊ¼-->
-		                    <td>ÍõÎå</td>
-		                    <td class="hide620">½­ºþ¾È¼±£¬½è100³Ô·¹</td>
+		                    <td><a class="btn btn-danger btn-sm" href="borrow_info.html?id=1">æŸ¥çœ‹</a></td>
+		                </tr><!--ç¬¬ä¸€æ¡æ•°æ®ç»“æŸ-->
+		                <tr><!--ç¬¬äºŒæ¡æ•°æ®å¼€å§‹-->
+		                    <td>çŽ‹äº”</td>
+		                    <td class="hide620">æ±Ÿæ¹–æ•‘æ€¥ï¼Œå€Ÿ100åƒé¥­</td>
 		                    <td class="text-info"> 12.00%
 		                    </td>
 		                    <td class="text-info">100.00</td>
 		                    <td class="hide620">
-		                        °´ÔÂµ½ÆÚ»¹¿î
+		                        æŒ‰æœˆåˆ°æœŸè¿˜æ¬¾
 		                    </td>
 		                    <td>100.00%</td>
-		                    <td><a class="btn btn-danger btn-sm" href="borrow_info.html?id=1">²é¿´</a></td>
-		                </tr><!--µÚ¶þÌõÊý¾Ý½áÊø-->
+		                    <td><a class="btn btn-danger btn-sm" href="borrow_info.html?id=1">æŸ¥çœ‹</a></td>
+		                </tr><!--ç¬¬äºŒæ¡æ•°æ®ç»“æŸ-->
 		
 		                <!--
-		                    Èç¹ûºóÌ¨Ã»ÓÐÄÚÈÝ,Ä¬ÈÏÊä³ö
+		                    å¦‚æžœåŽå°æ²¡æœ‰å†…å®¹,é»˜è®¤è¾“å‡º
 		
 		                <tr>
 		                    <td colspan="7" align="center">
-		                        <p class="text-danger">Ä¿Ç°ÔÝÊ±Ã»ÓÐ½øÐÐÖÐµÄ½è¿î</p>
+		                        <p class="text-danger">ç›®å‰æš‚æ—¶æ²¡æœ‰è¿›è¡Œä¸­çš„å€Ÿæ¬¾</p>
 		                    </td>
 		                </tr>
 		                 -->
@@ -141,325 +136,92 @@
 			</div>
 		</div>
 		
-		<!--ÎÄÕÂÐÅÏ¢-->
+		<!--æ–‡ç« ä¿¡æ¯-->
 		<div class="container" id="article">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-xs-12">
-					<!--Ãæ°åµÄ½á¹¹-->
+					<!--é¢æ¿çš„ç»“æž„-->
 					<div class="panel panel-default">
-					  <!--±êÌâ-->
+					  <!--æ ‡é¢˜-->
 					  <div class="panel-heading">
-					  	<h1>ÆóÒµ×îÐÂ×ÊÑ¶</h1>
-					  	<p><a href="#">¸ü¶à×ÊÑ¶</a></p>
+					  	<h1>ä¼ä¸šæœ€æ–°èµ„è®¯</h1>
+					  	<p><a href="#">æ›´å¤šèµ„è®¯</a></p>
 					  </div>
 					  <div class="panel-body">
 					     <ul>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
 					     </ul>
 					  </div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12">
-					<!--Ãæ°åµÄ½á¹¹-->
+					<!--é¢æ¿çš„ç»“æž„-->
 					<div class="panel panel-default">
-					  <!--±êÌâ-->
+					  <!--æ ‡é¢˜-->
 					  <div class="panel-heading">
-					  	<h1>ÓÃ»§·´À¡</h1>
-					  	<p><a href="#">¸ü¶à×ÊÑ¶</a></p>
+					  	<h1>ç”¨æˆ·åé¦ˆ</h1>
+					  	<p><a href="#">æ›´å¤šèµ„è®¯</a></p>
 					  </div>
 					  <div class="panel-body">
 					     <ul>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
 					     </ul>
 					  </div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12">
-					<!--Ãæ°åµÄ½á¹¹-->
+					<!--é¢æ¿çš„ç»“æž„-->
 					<div class="panel panel-default">
-					  <!--±êÌâ-->
+					  <!--æ ‡é¢˜-->
 					  <div class="panel-heading">
-					  	<h1>Àí²Æ¾­Ñé</h1>
-					  	<p><a href="#">¸ü¶à×ÊÑ¶</a></p>
+					  	<h1>ç†è´¢ç»éªŒ</h1>
+					  	<p><a href="#">æ›´å¤šèµ„è®¯</a></p>
 					  </div>
 					  <div class="panel-body">
 					     <ul>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
 					     </ul>
 					  </div>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-xs-12">
-					<!--Ãæ°åµÄ½á¹¹-->
+					<!--é¢æ¿çš„ç»“æž„-->
 					<div class="panel panel-default">
-					  <!--±êÌâ-->
+					  <!--æ ‡é¢˜-->
 					  <div class="panel-heading">
-					  	<h1>»î¶¯·ÖÏí</h1>
-					  	<p><a href="#">¸ü¶à×ÊÑ¶</a></p>
+					  	<h1>æ´»åŠ¨åˆ†äº«</h1>
+					  	<p><a href="#">æ›´å¤šèµ„è®¯</a></p>
 					  </div>
 					  <div class="panel-body">
 					     <ul>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
-					     	<li>ÑëÊÓÁ¦Í¦»¥ÁªÍø½ðÈÚ <span>·¢±íÈÕÆÚ£º2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
+					     	<li>å¤®è§†åŠ›æŒºäº’è”ç½‘é‡‘èž <span>å‘è¡¨æ—¥æœŸï¼š2015-03-23</span></li>
 					     </ul>
 					  </div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!--Ò³½Å-->
+		<!--é¡µè„š-->
 		<?php
 		   include_once("./footer.html");
 		?>
 	</body>
-    <!--ÒýÈëjquery¿â-->
+    <!--å¼•å…¥jqueryåº“-->
     <script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <!--ÒýÈëbootstrapºËÐÄjs¿â-->
+    <!--å¼•å…¥bootstrapæ ¸å¿ƒjsåº“-->
     <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-    <!--×Ô¶¨ÒåÌØÐ§-->
+    <!--è‡ªå®šä¹‰ç‰¹æ•ˆ-->
     <script src="src/javascript/p2pEffects.js" type="text/javascript" charset="utf-8"></script>
 </html>
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> .theirs
