@@ -17,6 +17,9 @@
   color: #00a8ff;
   text-decoration: underline;
 }
+.tooltip img {
+  width: 120px;
+}
 .navbar-default .navbar-nav > li > a {
   line-height: 40px;
   min-width: 80px;
@@ -44,6 +47,11 @@
 #article {
   padding-right: 0px;
   padding-left: 0px;
+}
+@media all and (max-width: 620px) {
+  .hide620 {
+    display: none;
+  }
 }
 .panel {
   -webkit-box-shadow: none;
@@ -83,4 +91,11 @@
 .panel-default .panel-body ul li span {
   float: right;
   color: #999;
+}
+footer {
+  background-color: #f8f8f8;
+  padding-top: 20px;
+}
+footer img {
+  max-width: 160px;
 }
