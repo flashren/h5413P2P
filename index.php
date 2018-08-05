@@ -27,6 +27,8 @@
 		<!--冲突-->
 		<h1>冲突演示</h1>
 
+		<h1>张华--冲突</h1>
+			
 		<!--轮播图-->
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 		  <!-- Indicators -->
