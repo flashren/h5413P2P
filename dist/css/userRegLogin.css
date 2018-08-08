@@ -47,6 +47,17 @@
     width: 100%;
   }
 }
+#regLoginModal .modal-body span {
+  font-size: 20px;
+  font-weight: bold;
+}
+#regLoginModal .modal-body .glyphicon-ok {
+  color: green;
+}
+#regLoginModal .modal-body .glyphicon-remove,
+#regLoginModal .modal-body #count {
+  color: red;
+}
 footer {
   background-color: #f8f8f8;
   padding-top: 20px;
