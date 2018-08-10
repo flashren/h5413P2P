@@ -1,6 +1,11 @@
 //引入header
 @import url("header.less");
 
+//横向出现滚动条
+body{
+    overflow-x: hidden;
+}
+
 //定义个人中心的样式
 #mainContent{
     margin-top: 10px;
@@ -22,7 +27,14 @@
         }
     }
     
+    #leftMenu{
+    }
+    
     #rightCon{
+        
+        #toggleMenu{
+            display: none;
+        }
         
         .panel-body{
             padding: 30px;
@@ -51,6 +63,36 @@
                 }
             }
         }  
+    }
+}
+
+@media all and (max-width: 768px){
+    #mainContent{
+        position: relative;
+        left: 0px; //菜单展开的状态
+        transition: all 0.8s ease-in-out;
+        
+        min-height: 900px;
+        
+        
+        #leftMenu{
+            position: absolute;
+            left: 0px;
+        }
+        
+        #rightCon{
+            #toggleMenu{
+                display: inline-block;
+            }
+                
+            position: absolute;
+            right: -50%;
+        }
+    }
+    
+    //菜单收起的状态
+    #mainContent.active{
+        left: -50%;
     }
 }
 

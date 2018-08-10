@@ -29,6 +29,9 @@
 .navbar-default .navbar-nav > li > a:hover {
   background-color: #f0f0f0;
 }
+body {
+  overflow-x: hidden;
+}
 #mainContent {
   margin-top: 10px;
 }
@@ -41,6 +44,9 @@
 #mainContent .panel-body ul li a:focus {
   font-weight: bold;
   color: orangered;
+}
+#mainContent #rightCon #toggleMenu {
+  display: none;
 }
 #mainContent #rightCon .panel-body {
   padding: 30px;
@@ -60,6 +66,28 @@
 #mainContent #rightCon .panel-body .row:nth-child(4) div .authIcon {
   background: url("../../../static/images/shiming.png") no-repeat left center;
   padding-left: 65px;
+}
+@media all and (max-width: 768px) {
+  #mainContent {
+    position: relative;
+    left: 0px;
+    transition: all 0.8s ease-in-out;
+    min-height: 900px;
+  }
+  #mainContent #leftMenu {
+    position: absolute;
+    left: 0px;
+  }
+  #mainContent #rightCon {
+    position: absolute;
+    right: -50%;
+  }
+  #mainContent #rightCon #toggleMenu {
+    display: inline-block;
+  }
+  #mainContent.active {
+    left: -50%;
+  }
 }
 footer {
   background-color: #f8f8f8;

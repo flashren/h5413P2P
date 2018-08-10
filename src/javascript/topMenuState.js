@@ -31,11 +31,15 @@ $(function () {
 		$("#homepage").after(htmlStr);
 	},"json");
 	
-	//主导航激活样式的实现
+	//主导航激活样式
 	var reqPath=location.href;
 	//http://localhost/index.php?mid=0
 	var mid=reqPath.split("=")[1];
-	//console.log("菜单的id",mid);
+//	console.log("菜单的id",mid);
+//	if(mid==undefined){
+//		mid=3;
+//	}
+//	console.log("菜单的id",mid);
 	//索引对应的li添加active激活样式，其他兄弟li移出active
 	$("#main_Menu ul li").eq(mid).addClass("active").siblings("li").removeClass("active");
 });

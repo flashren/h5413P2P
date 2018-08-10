@@ -8,6 +8,7 @@ var path=require("path");
 var cleanCSS=require("gulp-clean-css");
 var rename=require("gulp-rename");
 var uglify=require("gulp-uglify");
+var babel = require('gulp-babel');
 
 //配置less编译任务
 gulp.task("lestTask",function () {
@@ -38,6 +39,9 @@ gulp.task("minCssTask",function () {
 //配置js压缩的任务
 gulp.task("minJsTask",function () {
 	gulp.src("src/javascript/*.js") //源目录
+	.pipe(babel({
+        presets: ['env']
+    }))
 	.pipe(uglify()) //执行压缩
 	.pipe(rename({
 		suffix: ".min"   //执行重命名
