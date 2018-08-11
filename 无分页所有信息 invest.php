@@ -10,8 +10,6 @@
 		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css"/>
 		<!--引入图标字体-->
 		<link rel="stylesheet" type="text/css" href="lib/fontawesome/css/fontawesome-all.min.css"/>	
-		<!--引入分页插件的css-->
-		<link rel="stylesheet" type="text/css" href="lib/JqueryPagination/jquery.pagination.css"/>
 		<!--自定义样式-->
 		<link rel="stylesheet" type="text/css" href="dist/css/min/index.min.css"/>
 		<!--兼容低版本的浏览器-->
@@ -62,7 +60,7 @@
 				</tbody>
 			</table>
 			<div style="text-align: center;">
-		        <div id="page" class="m-pagination"></div>
+				<ul id="pagination" class="pagination"></ul>
 			</div>
         </div>
         <!--模板内容的结束-->
@@ -73,8 +71,6 @@
 	</body>
     <!--引入jquery库-->
     <script src="lib/jquery/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <!--引入插件的js库-->
-    <script src="lib/JqueryPagination/jquery.pagination-1.2.7.js" type="text/javascript" charset="utf-8"></script>
     <!--引入bootstrap核心js库-->
     <script src="lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
     <!--自定义特效-->
@@ -94,38 +90,15 @@
 		</tr>
     </script>
     <script type="text/javascript">
-    	//分页插件的参数配置
-    	$("#page").page({
-            debug: false,
-            showInfo: true,
-            showJump: true,
-            pageSize: 2, //自定义每页条数
-            showPageSizes: true,
-            //远程请求的地址配置
-            remote: {
-                url: 'api/getInvestPager.php',
-                success: function (data) {
-                    //console.log(data);
-                    //console.log("返回的数据，对象数组",data.list);
-                    //语法：$(模版选择器).tmpl(数据对象获取数组)
-		    		var htmlStr=$("#investTmpl").tmpl(data.list);
-		    		
-		    		//把html更新到页面的dom中
-		    		$("#gridBody").html(htmlStr);
-                }
-            }
-        });
-
-        
-        $("#page").on("pageClicked", function (event, pageIndex) {
-            //单击页面的事件
-            //$("#eventLog").append('EventName = pageClicked , pageIndex = ' + pageIndex + '<br />');
-        }).on('jumpClicked', function (event, pageIndex) {
-            //跳转页面的事件
-            //$("#eventLog").append('EventName = jumpClicked , pageIndex = ' + pageIndex + '<br />');
-        }).on('pageSizeChanged', function (event, pageSize) {
-            //修改每页大小的事件
-            //$("#eventLog").append('EventName = pageSizeChanged , pageSize = ' + pageSize + '<br />');
-        });
+    	//页面加载时就发起ajax请求取后台api获取投资数据
+    	$.get("api/getInvestList.php",function(dataList){
+    		//console.log(dataList);
+    		//把数据和模版合成为html代码
+    		//语法：$(模版选择器).tmpl(数据对象获取数组)
+    		var htmlStr=$("#investTmpl").tmpl(dataList);
+    		
+    		//把html更新到页面的dom中
+    		$("#gridBody").html(htmlStr);
+    	},"json");
     </script>
 </html>

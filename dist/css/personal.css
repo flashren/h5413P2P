@@ -89,6 +89,19 @@ body {
     left: -50%;
   }
 }
+.el-tip-info {
+  padding: 20px;
+  background-color: #F4F8FA;
+  border-left: 2px solid #0099DD;
+  margin-bottom: 20px;
+}
+.el-tip-info h3 {
+  color: #09d;
+}
+#borrowForm {
+  width: 60%;
+  margin: 0px auto;
+}
 footer {
   background-color: #f8f8f8;
   padding-top: 20px;
